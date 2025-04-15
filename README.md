@@ -35,7 +35,7 @@
 
 ---
 
-## 🛠️ Backend - API REST em .NET + PostgreSQL
+# 🛠️ Backend
 ---
 
 ### 🚀 Tecnologias Utilizadas
