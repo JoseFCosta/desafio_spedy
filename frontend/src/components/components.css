@@ -1,37 +1,72 @@
 .Button {
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
-    color: rgb(0, 0, 0);
-    background-color: #D9D9D9;
+    background-color: #F5F1EF;
     font-size: 1.12rem;
     width: 18.7rem;
     height:3.75rem;
     border: none;
     cursor: pointer;
-    border-radius: 0.62rem;
+    border-radius: 0.62rem;    
+    
+    border-right: 6px solid #192229;
+    border-bottom: 6px solid #192229;
+
+    transition:
+    border-width 0.3s ease,
+    box-shadow 0.3s ease,
+    transform 0.3s ease;
+  
+    cursor: pointer;
   }
   
   .Button:hover {
-    transition: filter 1.0s ease;
-    filter: brightness(0.8);
+    border-right-width: 0.3125rem;
+    border-bottom-width: 0.3125rem;
+    transform: translateY(0.1875rem);
+  }
+  .Button:active {
+    border-right-width: 0rem;
+    border-bottom-width: 0rem;
+    transform: translateY(0rem);
   }
 
   .Input-Filter {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
     width: 40.125rem;
     height: 3.75rem;
     border-radius: 0.625rem;
-    border: 3px solid #D9D9D9;
     font-size: 1.125rem;
     outline: none;
     padding-left: 30px;
     box-sizing: border-box;
+    border: none;
+    border-right: 6px solid #192229;
+    border-bottom: 6px solid #192229;
+
+    transition:
+    border-width 0.3s ease,
+    box-shadow 0.3s ease,
+    transform 0.3s ease;
   }
+
+    .Input-Filter:hover {
+    border-right-width: 0.3125rem;
+    border-bottom-width: 0.3125rem;
+    transform: translateY(0.1875rem);
+  }
+  .Input-Filter:active {
+    border-right-width: 0rem;
+    border-bottom-width: 0rem;
+    transform: translateY(0rem);
+  }
+
   
   .Input-DropDown {
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
-    color: #000000;
-    background-color: #D9D9D9;
+    background-color: #F5F1EF;
     font-size: 1.12rem;
     width: 18.7rem;
     height:3.75rem;
@@ -39,7 +74,30 @@
     border-radius: 0.625rem;
     text-align: center;
     border: none;
-    outline: none;
+    outline: none;    
+    
+    border-right: 6px solid #192229;
+    border-bottom: 6px solid #192229;
+    transition:
+    border-width 0.3s ease,
+    box-shadow 0.3s ease,
+    transform 0.3s ease;
+    cursor: pointer;
+  }
+
+  .Input-DropDown option {
+    font-weight: 500;
+  }
+
+  .Input-DropDown:hover {
+    border-right-width: 0.3125rem;
+    border-bottom-width: 0.3125rem;
+    transform: translateY(0.1875rem);
+  }
+  .Input-DropDown:active {
+    border-right-width: 0rem;
+    border-bottom-width: 0rem;
+    transform: translateY(0rem);
   }
   
   .modal-overlay {
@@ -48,7 +106,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.6);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -58,8 +116,7 @@
   .modal{        
     width: 58.4375rem;
     height: 32.875rem;
-    text-align: left;
-    background-color: #D9D9D9;
+    background-color: #F5F1EF;
     border-radius: 0.3125rem;
     padding: 1.25rem;
     padding-left: 2rem;
@@ -76,7 +133,6 @@
     font-size: 1.5rem;
     margin-left: 99%;
     font-weight: 600;
-    color: #000000;
   }
   
   .modal-close:hover {
@@ -104,7 +160,7 @@
     width: 58.4375rem;
     height: 35.875rem;
     text-align: left;
-    background-color: #D9D9D9;
+    background-color: #F5F1EF;
     border-radius: 0.3125rem;
     padding: 1.25rem;
     padding-left: 2rem;
@@ -114,26 +170,26 @@
 
 
   .modal-title-input{
-    background-color: #D9D9D9;
+    background-color: #F5F1EF;
     font-weight: 600;
     font-size: 2.25rem;
     width: 100%;
     border-radius: 0.625rem;
     outline: none;
-    border: 0.1563rem solid #000000;
+    border: 0.1563rem solid #192229;
   }
+
   .modal-date-input{
-    background-color: #D9D9D9;
+    background-color: #F5F1EF;
     padding-top: 1rem;
     font-style: italic;
     font-size: 1.5rem;
-    width: 100%;
+    width: 80%;
     border: none;
-    color: #000000;
   }
 
   .modal-legend-input { 
-    background-color: #D9D9D9;
+    background-color: #F5F1EF;
     padding-top: 1rem;
     font-size: 1.25rem;
     overflow: hidden;
@@ -142,9 +198,8 @@
     border-radius: 0.625rem;
     resize: none;    
     outline: none; 
-    border: 0.1563rem solid #000000;
+    border: 0.1563rem solid #192229;
   }
-
 
   .card {
     display: flex;
@@ -153,16 +208,41 @@
     height: 10.5rem;
     border-radius: 1rem;
     overflow: hidden;
-    background-color: #d9d9d9;
+    background-color: #F5F1EF;
     padding: 1rem;
     text-align: left;
+  
+    border-right: 0.625rem solid #192229;
+    border-bottom: 0.625rem solid #192229;
+  
+    cursor: pointer; /* ESSENCIAL pra parecer clicável */
+    box-shadow: 0 0.25rem 0.375rem rgba(0, 0, 0, 0.1);
+  
+    transition:
+      border-width 0.3s ease,
+      box-shadow 0.3s ease,
+      transform 0.3s ease;
   }
-
+  
+  .card:hover {
+    border-right-width: 0.3125rem;
+    border-bottom-width: 0.3125rem;
+    box-shadow: 0 0.375rem 0.625rem rgba(0, 0, 0, 0.15);
+    transform: translateY(0.25rem); /* leve "lift" no hover */
+  }
+  
+  .card:active {
+    border-right-width: 0rem;
+    border-bottom-width: 0rem;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.2);
+  }
+  
   .card-title{
     font-weight: 600;
     font-size: 1.2rem;
   }
   .card-date{
+    font-weight: 300;
     padding-top: 0.5rem;
     font-style: italic;
     font-size: 1.1rem;
@@ -186,6 +266,7 @@
     display: flex;
     align-items: center;
     padding-top: 1rem;
+    justify-content: space-between;
     
     }
   
@@ -193,33 +274,56 @@
     width: auto;
     height: 2.1875rem;
     font-size: 1.125rem;
-    border: 0.1563rem solid #000000;
-    background-color: #d9d9d9;
+    border: 0.1563rem solid #192229;
+    background-color: #F5F1EF;
     border-radius: 0.3125rem;
     cursor: pointer;
     transition: background-color 0.3s ease;
     text-align: center;
     margin-right: 0.9375rem;
   }
+
+  /* Animação do botão confirm */
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(0.625rem);
+    }
+  }
   
   .confirm-btn {
     width: 12.5rem;
     height: 2.1875rem;
     font-size: 1.125rem;
-    color: #d9d9d9;
-    border: 0.1563rem solid #d9d9d9;
-    background-color: #6D6D6D;
+    color: #F5F1EF;
+    border: 0.1563rem solid #F5F1EF;
+    background-color: #192229;
     border-radius: 0.3125rem;
     cursor: pointer;
     margin-right: 0.9375rem;
     transition: background-color 0.3s ease;
+    animation: fadeInUp 0.8s ease-out;
+    
+    transition:
+      border-width 0.3s ease,
+      box-shadow 0.3s ease,
+      transform 0.3s ease;
+  
   }
   
   .confirm-btn:hover {
-    background-color: #6D6D6D;
+    border-right-width: 0.125rem;
+    border-bottom-width: 0.125rem;
+    box-shadow: 0 0.375rem 0.625rem rgba(0, 0, 0, 0.15);
+    transform: translateY(0.125rem)
   }
   
-  
+  .confirm-btn:active {
+    border-right-width: 0rem;
+    border-bottom-width: 0rem;
+  }
+
+
   .tag-box {
     width: 7.5rem;
     width: auto;
@@ -227,19 +331,41 @@
     height: 1.5625rem;
     font-weight: 600;
     font-size: 1.25rem;
-    color: #6D6D6D;
+    color: #192229;
     border-radius: 0.625rem;
-    border: 0.1563rem solid #6D6D6D;  
     display: flex;
     justify-content: center;
     align-items: center;
     margin-right: 0.9375rem;
-    transition: all 0.5s ease;
+    transition: all 0.5s ease; 
+
+    border: 0.1563rem solid #192229;     
+    border-right: 0.25rem solid #000000;
+    border-bottom: 0.25rem solid #000000;
+    box-shadow: 0 0.25rem 0.375rem rgba(0, 0, 0, 0.1);
+
+    transition:
+      border-width 0.3s ease,
+      box-shadow 0.3s ease,
+      transform 0.3s ease;
   }
  
+  .tag-box:hover {
+    border-right-width: 0.125rem;
+    border-bottom-width: 0.125rem;
+    box-shadow: 0 0.375rem 0.625rem rgba(0, 0, 0, 0.15);
+    transform: translateY(0.125rem)
+  }
+  
+  .tag-box:active {
+    border-right-width: 0rem;
+    border-bottom-width: 0rem;
+  }
+
+
   .tag-box.preenchido {
-    color: #d9d9d9;
-    background-color: #6D6D6D;
+    color: #F5F1EF;
+    background-color: #192229;
   }
 
   .modal-tags{

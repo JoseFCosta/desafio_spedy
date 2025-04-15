@@ -4,14 +4,14 @@ using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
-
+//Arrumar Json para Frontend
 builder.Services.AddControllers().AddJsonOptions(options =>
 {
     options.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.Preserve;
-    options.JsonSerializerOptions.WriteIndented = true; // opcional, só pra deixar legível
+    options.JsonSerializerOptions.WriteIndented = true; 
 });
 
-// Adiciona o DbContext com PostgreSQL
+//Estabelece conexão
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 
@@ -40,13 +40,6 @@ builder.Services.AddControllers()
 var app = builder.Build();
 
 app.UseCors("AllowAll");
-
-// Aplica migration automaticamente
-using (var scope = app.Services.CreateScope())
-{
-    var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
-    db.Database.Migrate(); // Só funciona se as migrations já tiverem sido criadas
-}
 
 // Ativa Swagger
 if (app.Environment.IsDevelopment())

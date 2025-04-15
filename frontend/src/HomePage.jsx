@@ -100,11 +100,11 @@ export default function HomePage() {
     } catch (error) {
       console.error("Erro ao criar classificado:", error);
     }
-  };
+  }; 
 
   return (
     <div>
-      <h1>Classificados</h1>
+      <h1 className="whiteColor">Classificados</h1>
       <div className="header">
         <Button onClick={() => setShowModal(true)}>Novo Classificado</Button>
 
@@ -133,18 +133,20 @@ export default function HomePage() {
           <Card
             key={c.id}
             title={c.titulo}
+            date={c.data}
             legend={c.descricao}
             onClick={() =>
               handleCardClick({
                 title: c.titulo,
                 legend: c.descricao,
+                date: c.data,
                 tags: c.tags.map((tag) => tag.nome),
               })
             }
           />
         ))}
       </div>
-      <h2>Total de classificados: {classificados.length}</h2>
+      <h2 className="whiteColor">Total de classificados: {classificados.length}</h2>
 
       <Modal
         show={modalVisible}

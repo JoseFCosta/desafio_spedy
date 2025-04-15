@@ -45,7 +45,7 @@ export const Modal = ({ show, onClose, title, date, legend, tags = [] }) => {
           X
         </div>
         <div className="modal-title">{title}</div>
-        <div className="modal-date">{date}</div>
+        <div className="modal-date">{formatarData(date)}</div>
         <div className="modal-legend">{legend}</div>
 
         <div className="modal-tags">
@@ -130,10 +130,9 @@ export const InputModal = ({
           }}
           placeholder="Titulo"
         />
-        <div className={`contador ${inputTitle.length >= 60 ? "limit" : ""}`}>
-          {inputTitle.length}/60
-        </div>
+        <div style={{ display: "flex", justifyContent: "space-between" }}>
         {/* Input Date */}
+      
         <input
           className="modal-date-input"
           type="date"
@@ -142,6 +141,11 @@ export const InputModal = ({
           readOnly
           disabled
         />
+        
+        <div className={`contador ${inputTitle.length >= 60 ? "limit" : ""}`}>
+          {inputTitle.length}/60
+        </div>
+        </div>
         {/* Textarea Legend */}
         <textarea
           className="modal-legend-input"
@@ -213,17 +217,15 @@ export const InputModal = ({
 
 export const Card = ({ title, date, legend, onClick }) => {
   return (
+    <div className="card-wrapper">
     <div className="card" onClick={onClick}>
       <div className="card-title">{title}</div>
-      <div className="card-date">{date}</div>
+      <div className="card-date">{formatarData(date)}</div>
       <div className="card-legend">{legend}</div>
+    </div>
     </div>
   );
 };
-
-
-
-
 
 export const TagForm = ({ tags }) => {
   const [selectedTags, setSelectedTags] = useState([]);
@@ -284,3 +286,16 @@ export const TagForm = ({ tags }) => {
     </div>
   );
 };
+
+//Funções uteis
+
+function formatarData(dataISO) {
+  const data = new Date(dataISO);
+  const dataFormatada = data.toLocaleDateString('pt-BR', {
+    day: '2-digit',
+    month: 'long',
+    year: 'numeric',
+  });
+
+  return dataFormatada.charAt(0).toUpperCase() + dataFormatada.slice(1);
+}

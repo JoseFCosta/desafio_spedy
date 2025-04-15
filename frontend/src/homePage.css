@@ -9,9 +9,15 @@
   
 .cards-container{
     display: grid;
-    grid-template-columns: repeat(4, 1fr); /* 4 colunas iguais */
-    gap: 1rem; /* Espaço entre os cards */
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
     width: 100%;
     padding-bottom: 1.875rem;
 
+}
+
+/*Classe especifica para */
+
+.whiteColor {
+  color: #F5F1EF;
 }

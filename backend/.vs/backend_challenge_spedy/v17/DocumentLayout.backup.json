@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\jfbri\\source\\repos\\backend_challenge_spedy\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{14C05EB2-06CF-4736-B4A2-415B234BF230}|backend_challenge_spedy\\backend_challenge_spedy.csproj|c:\\users\\jfbri\\source\\repos\\backend_challenge_spedy\\backend_challenge_spedy\\controller\\classificadoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{14C05EB2-06CF-4736-B4A2-415B234BF230}|backend_challenge_spedy\\backend_challenge_spedy.csproj|solutionrelative:backend_challenge_spedy\\controller\\classificadoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{14C05EB2-06CF-4736-B4A2-415B234BF230}|backend_challenge_spedy\\backend_challenge_spedy.csproj|c:\\users\\jfbri\\source\\repos\\backend_challenge_spedy\\backend_challenge_spedy\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{14C05EB2-06CF-4736-B4A2-415B234BF230}|backend_challenge_spedy\\backend_challenge_spedy.csproj|solutionrelative:backend_challenge_spedy\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14C05EB2-06CF-4736-B4A2-415B234BF230}|backend_challenge_spedy\\backend_challenge_spedy.csproj|c:\\users\\jfbri\\source\\repos\\backend_challenge_spedy\\backend_challenge_spedy\\backend_challenge_spedy.csproj.backup.tmp||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{14C05EB2-06CF-4736-B4A2-415B234BF230}|backend_challenge_spedy\\backend_challenge_spedy.csproj|solutionrelative:backend_challenge_spedy\\backend_challenge_spedy.csproj.backup.tmp||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{14C05EB2-06CF-4736-B4A2-415B234BF230}|backend_challenge_spedy\\backend_challenge_spedy.csproj|c:\\users\\jfbri\\source\\repos\\backend_challenge_spedy\\backend_challenge_spedy\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{14C05EB2-06CF-4736-B4A2-415B234BF230}|backend_challenge_spedy\\backend_challenge_spedy.csproj|solutionrelative:backend_challenge_spedy\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14C05EB2-06CF-4736-B4A2-415B234BF230}|backend_challenge_spedy\\backend_challenge_spedy.csproj|c:\\users\\jfbri\\source\\repos\\backend_challenge_spedy\\backend_challenge_spedy\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14C05EB2-06CF-4736-B4A2-415B234BF230}|backend_challenge_spedy\\backend_challenge_spedy.csproj|solutionrelative:backend_challenge_spedy\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14C05EB2-06CF-4736-B4A2-415B234BF230}|backend_challenge_spedy\\backend_challenge_spedy.csproj|c:\\users\\jfbri\\source\\repos\\backend_challenge_spedy\\backend_challenge_spedy\\controller\\classificadoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14C05EB2-06CF-4736-B4A2-415B234BF230}|backend_challenge_spedy\\backend_challenge_spedy.csproj|solutionrelative:backend_challenge_spedy\\controller\\classificadoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{14C05EB2-06CF-4736-B4A2-415B234BF230}|backend_challenge_spedy\\backend_challenge_spedy.csproj|c:\\users\\jfbri\\source\\repos\\backend_challenge_spedy\\backend_challenge_spedy\\models\\classificado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,20 +31,12 @@
       "RelativeMoniker": "D:0:0:{14C05EB2-06CF-4736-B4A2-415B234BF230}|backend_challenge_spedy\\backend_challenge_spedy.csproj|solutionrelative:backend_challenge_spedy\\dto\\classificadodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{14C05EB2-06CF-4736-B4A2-415B234BF230}|backend_challenge_spedy\\backend_challenge_spedy.csproj|c:\\users\\jfbri\\source\\repos\\backend_challenge_spedy\\backend_challenge_spedy\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{14C05EB2-06CF-4736-B4A2-415B234BF230}|backend_challenge_spedy\\backend_challenge_spedy.csproj|solutionrelative:backend_challenge_spedy\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{14C05EB2-06CF-4736-B4A2-415B234BF230}|backend_challenge_spedy\\backend_challenge_spedy.csproj|c:\\users\\jfbri\\source\\repos\\backend_challenge_spedy\\backend_challenge_spedy\\models\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{14C05EB2-06CF-4736-B4A2-415B234BF230}|backend_challenge_spedy\\backend_challenge_spedy.csproj|solutionrelative:backend_challenge_spedy\\models\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{14C05EB2-06CF-4736-B4A2-415B234BF230}|backend_challenge_spedy\\backend_challenge_spedy.csproj|c:\\users\\jfbri\\source\\repos\\backend_challenge_spedy\\backend_challenge_spedy\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{14C05EB2-06CF-4736-B4A2-415B234BF230}|backend_challenge_spedy\\backend_challenge_spedy.csproj|solutionrelative:backend_challenge_spedy\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{14C05EB2-06CF-4736-B4A2-415B234BF230}|backend_challenge_spedy\\backend_challenge_spedy.csproj|c:\\users\\jfbri\\source\\repos\\backend_challenge_spedy\\backend_challenge_spedy\\backend_challenge_spedy.csproj.backup.tmp||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{14C05EB2-06CF-4736-B4A2-415B234BF230}|backend_challenge_spedy\\backend_challenge_spedy.csproj|solutionrelative:backend_challenge_spedy\\backend_challenge_spedy.csproj.backup.tmp||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{14C05EB2-06CF-4736-B4A2-415B234BF230}|backend_challenge_spedy\\backend_challenge_spedy.csproj|c:\\users\\jfbri\\source\\repos\\backend_challenge_spedy\\backend_challenge_spedy\\migrations\\20250413042150_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -55,32 +59,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\jfbri\\source\\repos\\backend_challenge_spedy\\backend_challenge_spedy\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "backend_challenge_spedy\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\jfbri\\source\\repos\\backend_challenge_spedy\\backend_challenge_spedy\\Properties\\launchSettings.json",
+              "RelativeToolTip": "backend_challenge_spedy\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-15T01:11:32.974Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "ClassificadosController.cs",
               "DocumentMoniker": "C:\\Users\\jfbri\\source\\repos\\backend_challenge_spedy\\backend_challenge_spedy\\Controller\\ClassificadosController.cs",
               "RelativeDocumentMoniker": "backend_challenge_spedy\\Controller\\ClassificadosController.cs",
               "ToolTip": "C:\\Users\\jfbri\\source\\repos\\backend_challenge_spedy\\backend_challenge_spedy\\Controller\\ClassificadosController.cs",
               "RelativeToolTip": "backend_challenge_spedy\\Controller\\ClassificadosController.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAQwDsAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAACwAAAAAAAAAAAAQwDkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-13T04:06:36.684Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Classificado.cs",
-              "DocumentMoniker": "C:\\Users\\jfbri\\source\\repos\\backend_challenge_spedy\\backend_challenge_spedy\\Models\\Classificado.cs",
-              "RelativeDocumentMoniker": "backend_challenge_spedy\\Models\\Classificado.cs",
-              "ToolTip": "C:\\Users\\jfbri\\source\\repos\\backend_challenge_spedy\\backend_challenge_spedy\\Models\\Classificado.cs",
-              "RelativeToolTip": "backend_challenge_spedy\\Models\\Classificado.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAAABAAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T04:00:49.415Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "ClassificadoDto.cs",
               "DocumentMoniker": "C:\\Users\\jfbri\\source\\repos\\backend_challenge_spedy\\backend_challenge_spedy\\DTO\\ClassificadoDto.cs",
               "RelativeDocumentMoniker": "backend_challenge_spedy\\DTO\\ClassificadoDto.cs",
@@ -88,12 +92,11 @@
               "RelativeToolTip": "backend_challenge_spedy\\DTO\\ClassificadoDto.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAAxwAUAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T04:07:59.232Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-13T04:07:59.232Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\jfbri\\source\\repos\\backend_challenge_spedy\\backend_challenge_spedy\\appsettings.json",
               "RelativeDocumentMoniker": "backend_challenge_spedy\\appsettings.json",
@@ -106,7 +109,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\jfbri\\source\\repos\\backend_challenge_spedy\\backend_challenge_spedy\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "backend_challenge_spedy\\Data\\AppDbContext.cs",
@@ -118,20 +121,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\jfbri\\source\\repos\\backend_challenge_spedy\\backend_challenge_spedy\\Program.cs",
               "RelativeDocumentMoniker": "backend_challenge_spedy\\Program.cs",
               "ToolTip": "C:\\Users\\jfbri\\source\\repos\\backend_challenge_spedy\\backend_challenge_spedy\\Program.cs",
               "RelativeToolTip": "backend_challenge_spedy\\Program.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAACsAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAcwC0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-13T03:55:11.333Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Tag.cs",
               "DocumentMoniker": "C:\\Users\\jfbri\\source\\repos\\backend_challenge_spedy\\backend_challenge_spedy\\Models\\Tag.cs",
               "RelativeDocumentMoniker": "backend_challenge_spedy\\Models\\Tag.cs",
@@ -139,12 +142,11 @@
               "RelativeToolTip": "backend_challenge_spedy\\Models\\Tag.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T04:01:09.47Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-13T04:01:09.47Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "backend_challenge_spedy.csproj.Backup.tmp",
               "DocumentMoniker": "C:\\Users\\jfbri\\source\\repos\\backend_challenge_spedy\\backend_challenge_spedy\\backend_challenge_spedy.csproj.Backup.tmp",
               "RelativeDocumentMoniker": "backend_challenge_spedy\\backend_challenge_spedy.csproj.Backup.tmp",
@@ -152,11 +154,24 @@
               "RelativeToolTip": "backend_challenge_spedy\\backend_challenge_spedy.csproj.Backup.tmp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-04-13T04:28:50.935Z"
+              "WhenOpened": "2025-04-13T04:28:50.935Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 5,
+              "Title": "Classificado.cs",
+              "DocumentMoniker": "C:\\Users\\jfbri\\source\\repos\\backend_challenge_spedy\\backend_challenge_spedy\\Models\\Classificado.cs",
+              "RelativeDocumentMoniker": "backend_challenge_spedy\\Models\\Classificado.cs",
+              "ToolTip": "C:\\Users\\jfbri\\source\\repos\\backend_challenge_spedy\\backend_challenge_spedy\\Models\\Classificado.cs",
+              "RelativeToolTip": "backend_challenge_spedy\\Models\\Classificado.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAABAAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T04:00:49.415Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "20250413042150_InitialCreate.cs",
               "DocumentMoniker": "C:\\Users\\jfbri\\source\\repos\\backend_challenge_spedy\\backend_challenge_spedy\\Migrations\\20250413042150_InitialCreate.cs",
               "RelativeDocumentMoniker": "backend_challenge_spedy\\Migrations\\20250413042150_InitialCreate.cs",
@@ -168,7 +183,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "backend_challenge_spedy.csproj",
               "DocumentMoniker": "C:\\Users\\jfbri\\source\\repos\\backend_challenge_spedy\\backend_challenge_spedy\\backend_challenge_spedy.csproj",
               "RelativeDocumentMoniker": "backend_challenge_spedy\\backend_challenge_spedy.csproj",
@@ -176,7 +191,8 @@
               "RelativeToolTip": "backend_challenge_spedy\\backend_challenge_spedy.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-12T22:48:48.28Z"
+              "WhenOpened": "2025-04-12T22:48:48.28Z",
+              "EditorCaption": ""
             }
           ]
         }
